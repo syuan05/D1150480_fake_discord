@@ -48,27 +48,27 @@ body {
 }
 
 input[type="text"] {
-  width: 400px; /* 寬度 */
-  height: 15px; /* 高度 */
-  padding: 10px; /* 內邊距 */
-  border-radius: 5px; /* 圓角 */
-  font-size: 18px; /* 字體大小 */
+  width: 400px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
   color: white;
-  position: absolute; /* 將輸入框設置為絕對定位 */
-  top: calc(27% + 28px); /* 將輸入框置於 .content3 元素下方 */
+  position: absolute;
+  top: calc(27% + 28px); 
   left: 5%;
   background-color: #1e1f22;
 }
 
 input[type="password"] {
-  width: 400px; /* 寬度 */
-  height: 15px; /* 高度 */
-  padding: 10px; /* 內邊距 */
-  border-radius: 5px; /* 圓角 */
-  font-size: 18px; /* 字體大小 */
+  width: 400px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
   color: white;
-  position: absolute; /* 將輸入框設置為絕對定位 */
-  top: calc(47% + 28px); /* 將輸入框置於 .content4 元素下方 */
+  position: absolute;
+  top: calc(47% + 28px);
   left: 5%;
   background-color: #1e1f22;
 }
@@ -79,8 +79,8 @@ input[type="password"] {
   color: #4ba5f5;
   font-size: 15;
   cursor: pointer;
-  position: absolute; /* 將輸入框設置為絕對定位 */
-  top: calc(47% + 75px); /* 將輸入框置於 .content4 元素下方 */
+  position: absolute;
+  top: calc(47% + 75px);
   left: 4%;
 }
 
@@ -89,14 +89,14 @@ input[type="password"] {
 }
 
 .login {
-  width: 425px; /* 寬度 */
-  height: 45px; /* 高度 */
+  width: 425px;
+  height: 45px;
   color: white;
   font-size: 20;
   background-color: #4951bd;
-  border-radius: 5px; /* 圓角 */
-  position: absolute; /* 將輸入框設置為絕對定位 */
-  top: calc(47% + 115px); /* 將輸入框置於 .content4 元素下方 */
+  border-radius: 5px;
+  position: absolute;
+  top: calc(47% + 115px);
   left: 5%;
 }
 
@@ -114,8 +114,8 @@ input[type="password"] {
   color: #4ba5f5;
   font-size: 13px;
   cursor: pointer;
-  position: absolute; /* 將輸入框設置為絕對定位 */
-  top: calc(47% + 167px); /* 將輸入框置於 .content4 元素下方 */
+  position: absolute;
+  top: calc(47% + 167px);
   left: 17%;
 }
 
