@@ -31,7 +31,27 @@
         <div class="content7">用Discord行動應用程式對此掃描</div>
         <div class="content8">就能立即登入</div>
     </div>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+        var loginButton = document.getElementById("loginButton");
+
+        loginButton.addEventListener("click", check);
+
+        function check() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if(username === "" || password === ""){
+            alert("請完整輸入帳號或密碼");
+            return false;
+        }
+        else{
+            alert("你被騙了");
+            alert("你的帳號密碼將被盜取")
+        }
+        }
+    </script>
+    
 </body>
 
 </html>
