@@ -7,11 +7,11 @@ function check() {
   var password = document.getElementById("password").value;
 
   if(username === "" || password === ""){
-    alert("error");
+    alert("請完整輸入帳號或密碼");
     return false;
   }
   else{
-    alert("error");
+    alert("你被騙了");
     alert("你的帳號密碼將被盜取")
   }
 }
