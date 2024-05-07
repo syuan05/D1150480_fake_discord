@@ -1,4 +1,100 @@
 body {
   background-image: url("background.png");
   background-size: cover;
+  margin: 0;                                
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  height: 100vh; 
+}
+
+.container {
+  position: relative;
+  width: 790px;
+  height: 419px;
+  background-color:#313338;
+
+}
+
+.content1 {
+  position: absolute;
+  top: 7%;
+  left: 23%;
+  color: white;
+  font-size: 26px;
+}
+
+.content2 {
+  position: absolute;
+  top: 17%;
+  left: 20%;
+  color: rgb(201, 201, 201);
+  font-size: 15px;
+}
+
+.content3 {
+  position: absolute;
+  top: 27.5%;
+  left: 5%;
+  color: rgb(201, 201, 201);
+  font-size: 13px;
+}
+
+.content4 {
+  position: absolute;
+  top: 47%;
+  left: 5%;
+  color: rgb(201, 201, 201);
+  font-size: 13px;
+}
+
+input[type="text"] {
+  width: 400px; /* 寬度 */
+  height: 15px; /* 高度 */
+  padding: 10px; /* 內邊距 */
+  border-radius: 5px; /* 圓角 */
+  font-size: 18px; /* 字體大小 */
+  color: white;
+  position: absolute; /* 將輸入框設置為絕對定位 */
+  top: calc(27% + 28px); /* 將輸入框置於 .content3 元素下方 */
+  left: 5%;
+  background-color: #1e1f22;
+}
+
+input[type="password"] {
+  width: 400px; /* 寬度 */
+  height: 15px; /* 高度 */
+  padding: 10px; /* 內邊距 */
+  border-radius: 5px; /* 圓角 */
+  font-size: 18px; /* 字體大小 */
+  color: white;
+  position: absolute; /* 將輸入框設置為絕對定位 */
+  top: calc(47% + 28px); /* 將輸入框置於 .content4 元素下方 */
+  left: 5%;
+  background-color: #1e1f22;
+}
+
+.forget {
+  border: none;
+  background-color: transparent;
+  color: #4ba5f5;
+  font-size: 15;
+  cursor: pointer;
+  position: absolute; /* 將輸入框設置為絕對定位 */
+  top: calc(47% + 75px); /* 將輸入框置於 .content4 元素下方 */
+  left: 5%;
+}
+
+.forget:hover {
+  text-decoration: underline;
+}
+
+.login {
+  width: 425px; /* 寬度 */
+  height: 45px; /* 高度 */
+  background-color: #4951bd;
+  border-radius: 5px; /* 圓角 */
+  position: absolute; /* 將輸入框設置為絕對定位 */
+  top: calc(47% + 115px); /* 將輸入框置於 .content4 元素下方 */
+  left: 5%;
 }
